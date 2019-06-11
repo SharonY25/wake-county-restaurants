@@ -1,5 +1,4 @@
 import pandas as pd
-from src.yelp import fetch_yelp_data
 
 pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 500)

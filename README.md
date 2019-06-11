@@ -46,10 +46,13 @@ To run the main data analysis module, run
 python main.py
 ```
 
-To download and save data from Yelp, run
+To download and save data from Yelp, first you need to get an API key from
+[Yelp](https://www.yelp.com/developers/documentation/v3/authentication), and save
+it in a plain text file `wake-county-restaurants/yelp_api_key`.
+Then, run
 
 ```
-python ./src/yelp.py
+python src/yelp.py
 ```
 
 ## About the data
