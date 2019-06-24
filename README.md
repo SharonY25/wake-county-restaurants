@@ -57,4 +57,8 @@ python src/yelp.py
 
 ## About the data
 
-TODO
+1.     Restaurants: This table captures all active facilities where Wake County performs sanitations inspections.  Facilities that are closed are removed from all three files in this dataset.  Per NC State regulations, facilities that have a change in ownership are considered closed and the restaurant re-opens under a new permit, even if there is not a change in the name of the restaurant.
+
+2.     Food Inspections: This table captures all Wake County performs sanitations inspections at active restaurants since September 20, 2012
+
+3.     Food Inspection Violations: This table captures all violations identified during specific Wake County sanitations inspections at active restaurants since September 20, 2012.  It reports the results in code violations and according to CDC Risk Factors.  You can find additional information about the CDC Risk Factors on the FDA website: Retail Risk Factor Study
